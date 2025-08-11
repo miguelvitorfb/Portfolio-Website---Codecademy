@@ -5,25 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
 </head>
 <body>
     <header>
         <h1>Miguel Vitor</h1>
         <img src="/assets/Emblema Mortal e Clássico.png" alt="Por Deus e Liberdade">
         <ol>
-            <li><a href="">Sobre Mim</a></li>
-            <li><a href="">Projetos</a></li>
-            <li><a href="">Tecnicidade</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a id="about-me"      href="">Sobre Mim</a></li>
+            <li><a id="portfolios"    href="">Projetos</a></li>
+            <li><a id="tecnic"        href="">Tecnicidade</a></li>
+            <li><a id="contact"      href="">Contato</a></li>
         </ol>
     </header>
     <main>
+        <div id="sobre-mim">
         <h2>Sobre Mim</h2>
-        <h2>Projetos</h2>
-        <h2>Tecnidade</h2>
-        <h2>Contato</h2>
+        <br>
+        <p>
+    Sou <strong>Miguel Vitor</strong>, desenvolvedor em formação que gosta de resolver problemas de forma
+    <strong>pragmática</strong> e medir resultados no que realmente importa: <strong>performance</strong>,
+    <strong>clareza</strong> e <strong>experiência do usuário</strong>.
+  </p>
+  <p>
+    Hoje foco em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, evoluindo com
+    <strong>React</strong> e <strong>Node.js</strong>. Gosto de escrever <strong>código limpo</strong>, criar
+    <strong>interfaces responsivas</strong> e manter o fluxo de trabalho com <strong>Git/GitHub</strong> bem organizado
+    (branches, commits claros e deploy contínuo).
+  </p>
+  <p>
+    Trago também meu olhar de <strong>Psicologia</strong> para entender comportamento, comunicação e tomada de decisão,
+    o que melhora a <strong>usabilidade</strong> e a forma como as soluções são apresentadas.
+  </p>
+  <p>
+    Em resumo: se algo pode ser <strong>simplificado</strong>, eu simplifico; se pode ser
+    <strong>acelerado</strong>, eu otimizo. Busco desafios onde eu possa gerar <strong>valor real</strong> com
+    entregas objetivas e bem-feitas.
+  </p>
+        </div>
 
+        <div id="meus-projetos">
+        <h2>Projetos</h2>
+        <p>Meus projetos focam em sites com responsíveis para qualquer que seja o dispositivo, de modo a trazer uma boa experiência ao usuário em qualquer ocasião</p><br>
+        <p>Meus projetos:</p>
+        <br>
+            <ul>
+                <li ><a class="projects" href="https://miguelvitorfb.github.io/We-Care---DevClub" target="_blank">https://miguelvitorfb.github.io/We-Care---DevClub</a></li>
+                <li ><a class="projects" href="https://miguelvitorfb.github.io/Easy-Shopping-Via-Mobile---DevClub" target="_blank">https://miguelvitorfb.github.io/Easy-Shopping-Via-Mobile---DevClub</a></li>
+                <li ><a class="projects" href="https://miguelvitorfb.github.io/Wide-Coverage-Location---DevClub" target="_blank">https://miguelvitorfb.github.io/Wide-Coverage-Location---DevClub</a></li>
+                <li><a class="projects" href="https://miguelvitorfb.github.io/MixedMessages" target="_blank">https://miguelvitorfb.github.io/MixedMessages</a></li>
+            </ul>
+        </div>
+
+        <div id="minhas-tecnologias">
+        <h2>Tecnicidade</h2>
+            <div class="divicidade">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="50px"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="50px" />
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" width="50px"/>
+          
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="50px"/>
+          
+          
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="50px" />
+          
+                
+            <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+          
+
+            <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+          
+
+          </div>
+        </div>
+
+        <div id="meus-contatos">
+        <h2>Contato</h2>
+        <p>Em caso de urgência:</p><br>
+        <a target="_blank" href="https://github.com/miguelvitorfb">
+            <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+          </a>
+        </div>
     </main>
     <footer>
         <h4>Desenvolvido para o CodeAcademy</h4>
