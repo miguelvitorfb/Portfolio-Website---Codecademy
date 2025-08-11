@@ -23,7 +23,7 @@ header img{
 ol li{
     display: inline-block;
     padding-left: 20px;
-
+    
 }
 
 a{
@@ -45,6 +45,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+
 }
 
 footer{
@@ -89,4 +90,77 @@ ul{
 
 #sobre-mim ,#meus-projetos,#minhas-tecnologias,#meus-contatos{
     padding: 20px;
+}
+
+@media screen and (max-width:768px){
+    header{
+    width: 110vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: midnightblue;
+    color: white;
+}
+ol li{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding-right: 100px;
+}
+
+    header img{
+        padding-right: 150px;
+    }
+    main{
+    width: 110vw;
+    height: 100%;
+    background-color:#F5F5F5;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+footer{
+     background-color: #0B0B45;
+    width: 110vw;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+}
+
+@media screen and (max-width:485px) {
+        header{
+    width: 190vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: midnightblue;
+    color: white;
+}
+
+    header img{
+        padding-left: 60px;
+    }
+    main{
+    width: 190vw;
+    height: 170vh;
+    background-color:#F5F5F5;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+footer{
+     background-color: #0B0B45;
+    width: 190vw;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 }
